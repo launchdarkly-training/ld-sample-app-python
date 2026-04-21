@@ -6,7 +6,6 @@
 * LaunchDarkly Flags:
   - **Release: UI Enhancements**, key: `release-ui-enhancements`
   - **Release: Home Page Slider**, key: `release-home-page-slider`
-  - **Coffee Promo 1**, key: `coffee-promo-1`
   - **Coffee Promo 2**, key: `coffee-promo-2`
   - **Banner Text**, key: `banner-text`
 
