@@ -18,13 +18,7 @@ function switchPromo(enabled, id) {
 
 function switchSection() {
     section = document.getElementById('coffee-promo-section');
-    promo1 = document.getElementById('coffee-promo-1');
-    promo2 = document.getElementById('coffee-promo-2');
-    if (promo1.style.display !== 'none' || promo2.style.display !== 'none') {
-        section.style.display = 'block';
-    } else {
-        section.style.display = 'none';
-    }
+    section.style.display = 'block';
 }
 
 function getBannerText() {
