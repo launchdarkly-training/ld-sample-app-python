@@ -50,20 +50,11 @@
   </div>
 </section>
 
-<section class="section" id="coffee-promo-section" {% if coffee_promo_1 or coffee_promo_2 %} style="display: block;" {%
+<section class="section" id="coffee-promo-section" {% if coffee_promo_2 %} style="display: block;" {%
   else %} style="display: none;" {% endif %}>
   <div class="container">
     <h2>Current Promotions</h2>
     <div class="promo-grid">
-      <article class="promo" id="coffee-promo-1" {% if coffee_promo_1 %} style="display: block;" {% else %}
-        style="display: none;" {% endif %}>
-        <div>
-          <span class="badge">Limited • August</span>
-          <h3>Buy 5 Syrups, Get 1 Free</h3>
-          <p class="muted">Mix and match classic and seasonal flavors. Perfect for fall menus.</p>
-        </div>
-        <a class="btn secondary" href="/products">Browse Syrups</a>
-      </article>
       <article class="promo" id="coffee-promo-2" {% if coffee_promo_2 %} style="display: block;" {% else %}
         style="display: none;" {% endif %}>
         <div>
